@@ -11,7 +11,7 @@ const MainHeader = () => {
           <input
             type="text"
             placeholder="Search Here............"
-            class="input input-bordered input-primary w-full"
+            class="input input-bordered input-primary w-full text-black"
           />
           <button class="btn btn-primary">Search</button>
         </div>
