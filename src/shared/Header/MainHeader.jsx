@@ -10,10 +10,10 @@ const MainHeader = () => {
         <div className="w-full gap-4 flex-between">
           <input
             type="text"
-            placeholder="Type here"
+            placeholder="Search Here............"
             class="input input-bordered input-primary w-full"
           />
-          <button class="btn btn-primary">Button</button>
+          <button class="btn btn-primary">Search</button>
         </div>
         <div className="flex items-center justify-end ml-12 w-[10%]">
           <div className="mr-6 cursor-pointer hover:text-primary">

@@ -21,6 +21,9 @@
   .globalH2 {
     @apply text-xl font-bold text-black;
   }
+  .globalH1 {
+    @apply text-3xl font-bold tracking-wide text-black;
+  }
   .flex-between {
     @apply flex items-center justify-between;
   }
