@@ -18,7 +18,7 @@ const CatagoryByProduct = () => {
           </p>
         </div>
         <div className="absolute top-0 ">
-          <span className="px-4 py-1 font-semibold text-black rounded-lg bg-accent">
+          <span className="px-2 font-semibold text-black rounded-lg bg-accent text-sm">
             Favorite
           </span>
         </div>

@@ -25,19 +25,19 @@ const TopHeader = () => {
           </i>
         </div>
         <ul className="flex-between">
-          <li className="px-5 transition-all cursor-pointer hover:text-primary">
+          <li className="px-5 text-sm transition-all cursor-pointer hover:text-primary">
             Introduce
           </li>
-          <li className="px-5 transition-all cursor-pointer hover:text-primary">
+          <li className="px-5 text-sm transition-all cursor-pointer hover:text-primary">
             Partner Incentives
           </li>
-          <li className="px-5 transition-all cursor-pointer hover:text-primary">
+          <li className="px-5 text-sm transition-all cursor-pointer hover:text-primary">
             Promotion
           </li>
-          <li className="px-5 transition-all cursor-pointer hover:text-primary">
+          <li className="px-5 text-sm transition-all cursor-pointer hover:text-primary">
             Contact
           </li>
-          <li className="pl-5 transition-all cursor-pointer hover:text-primary">
+          <li className="pl-5 text-sm transition-all cursor-pointer hover:text-primary">
             Frequently asked questions
           </li>
         </ul>
