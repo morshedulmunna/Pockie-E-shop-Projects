@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+}
+
 @layer components {
   .globalContainer {
     @apply container py-6 mx-auto lg:container md:container;
@@ -11,5 +20,8 @@
   }
   .globalH2 {
     @apply text-xl font-bold text-black;
+  }
+  .flex-between {
+    @apply flex items-center justify-between;
   }
 }

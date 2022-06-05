@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <>
-      <div className="grid grid-cols-12 gap-6 globalContainer">
+      <div className="grid grid-cols-12 gap-6 px-12">
         <div className="flex-col h-[564px] col-span-2  flex justify-between py-12">
           <p className="globalH2">Asus Super Sale Laptop Gaming</p>
           <img
