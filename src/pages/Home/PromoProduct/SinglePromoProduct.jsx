@@ -4,7 +4,7 @@ import Timerer from "./Timerer";
 const SinglePromoProduct = () => {
   return (
     <>
-      <div>
+      <div className=" relative ">
         <div className="flex items-center justify-center flex-col lg:flex-row md:flex-row mt-12">
           <img
             src="https://m.media-amazon.com/images/I/61M-QNJf4pL._AC_UY218_.jpg"
@@ -34,7 +34,9 @@ const SinglePromoProduct = () => {
             <button class="globalBtn w-full mt-6 mx-auto">Order Now</button>
           </div>
         </div>
-        <div></div>
+        <span className=" bg-secondary px-4 rounded-lg font-bold absolute top-3 ">
+          - 15%
+        </span>
       </div>
     </>
   );

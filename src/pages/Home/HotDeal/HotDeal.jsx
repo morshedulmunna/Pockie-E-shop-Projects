@@ -3,7 +3,7 @@ import React from "react";
 const HotDeal = () => {
   return (
     <>
-      <div className="globalContainer text-black my-12 px-12">
+      <div className="globalContainer text-black my-12 ">
         <div className="flex items-center justify-center flex-col-reverse lg:flex-row md:flex-row">
           <div className="px-6 w-1/2">
             <span className="mb-12">Hot Deal</span>
