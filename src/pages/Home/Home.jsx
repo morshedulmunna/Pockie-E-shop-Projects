@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <Banner />
       <ShopByCatagory />
-      <div className="flex-between px-5 lg:px-28 md:px-28 flex-col lg:flex-row md:flex-row">
+      <div className="flex-between px-5 lg:px-28 md:px-28 flex-col lg:flex-row md:flex-row globalContainer">
         <HotDeal />
         <HotDeal />
       </div>

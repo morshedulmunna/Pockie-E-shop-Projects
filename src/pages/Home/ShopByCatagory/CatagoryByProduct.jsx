@@ -3,7 +3,7 @@ import React from "react";
 const CatagoryByProduct = () => {
   return (
     <>
-      <div className=" h-[172px] mt-6 rounded text-black px-10 relative">
+      <div className=" h-[172px] mt-6 rounded text-black px-10 relative globalContainer">
         <div className="mt-12">
           <img
             src="https://m.media-amazon.com/images/I/61M-QNJf4pL._AC_UY218_.jpg"

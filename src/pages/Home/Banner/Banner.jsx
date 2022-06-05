@@ -7,7 +7,7 @@ import Slider from "./Slider";
 const Banner = () => {
   return (
     <>
-      <div className="grid grid-cols-12 gap-6 px-12 py-12">
+      <div className="grid grid-cols-12 gap-6 px-12 py-12 w-[1780px] mx-auto">
         <div className="flex-col h-[564px] col-span-2  flex justify-between py-12">
           <p className="globalH2">
             Asus Super cool Sale Laptop Gaming | Top Class Brand
