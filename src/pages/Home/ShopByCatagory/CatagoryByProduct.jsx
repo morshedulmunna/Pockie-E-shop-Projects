@@ -1,26 +1,24 @@
 import React from "react";
 
-const CatagoryByProduct = () => {
+const CatagoryByProduct = ({ item }) => {
+  const { image, title, price } = item;
   return (
     <>
-      <div className=" h-[172px] mt-6 rounded text-black px-10 relative globalContainer">
-        <div className="mt-12">
-          <img
-            src="https://m.media-amazon.com/images/I/61M-QNJf4pL._AC_UY218_.jpg"
-            alt=""
-          />
-          <h3>Apply Mackbook Pro 2019 MWP4535SA43</h3>
+      <div className="text-black rounded globalContainer">
+        <div>
+          <img className="h-[200px] w-full object-cover" src={image} alt="" />
+          <h3> {title.slice(0, 20)} </h3>
           <p className="py-1 font-black">
-            $<span>2,340.45</span>
+            $<span>{price} </span>
           </p>
           <p className="text-blue-800 font-bold text-[11px] py-2">
             <span className="text-gray-400">by</span> Co. LTD Miner li
           </p>
         </div>
         <div className="absolute top-0 ">
-          <span className="px-2 font-semibold text-black rounded-lg bg-accent text-sm">
+          {/* <span className="px-2 text-sm font-semibold text-black rounded-lg bg-accent">
             Favorite
-          </span>
+          </span> */}
         </div>
       </div>
     </>
